@@ -1,0 +1,366 @@
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #263644;
+}
+
+body {
+    color: #909090;
+    background: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.menu {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.nav-bar {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#intro {
+    background-image: url("../images/bkgs/bkg-intro2.jpg");
+    color: #ffffff;
+}
+
+.bkg-cover {
+    background-color: rgba(8, 4, 0, 0.5);
+    height: 100%;
+}
+
+.btn-flat {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-flat:hover {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #000000;
+}
+
+.btn-flat-fill,
+#submit,
+#submit-comm {
+    background: #02014f;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 6px 0px #4e43cb;
+    -moz-box-shadow: 0px 6px 0px #4e43cb;
+    box-shadow: 0px 6px 0px #02014f;
+    border-radius: 10px;
+}
+
+.btn-flat-fill:hover,
+#submit:hover,
+#submit-comm:hover,
+.current-page {
+    background: #0300c2;
+    color: #ffffff;
+    
+}
+
+.btn-flat-fill:active,
+.btn-flat-fill:focus,
+#submit:active,
+#submit:focus,
+#submit-comm:active,
+#submit-comm:focus {
+    -webkit-box-shadow: 0px 1px 0px #020071;
+    -moz-box-shadow: 0px 1px 0px #CC5200;
+    box-shadow: 0px 1px 0px #020071;
+}
+
+.menu li a {
+    color: #263644;
+}
+
+.menu li a:hover,
+.menu li a:focus,
+.menu li a.active {
+    color: #ffffff;
+    background: #000000;
+}
+
+.mobile-navigation {
+    background-color: #F8F8F8;
+    color: #8F8F8F;
+}
+
+.section-title {
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.section-sub-title {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.about-bkg {
+    background: #ffffff;
+}
+
+.about-img {
+    background: #000000;
+    -webkit-box-shadow: 5px 5px 0px #000000;
+    -moz-box-shadow: 5px 5px 0px #000000;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.about-feature h4 {
+    color: #263644;
+}
+
+#team-bkg {
+    background-image: url("../images/bkgs/bkg-team.jpg");
+}
+
+#team-bkg-cover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.team-member h4,
+.flexslider-testimonials {
+    color: #ffffff;
+}
+
+.team-member span {
+    color: #ffbb00;
+}
+
+.portfolio-bkg {
+    background: #ffffff;
+}
+
+#portfolio-filter li a,
+#portfolio-filter li:after {
+    color: #000000
+}
+
+#portfolio-filter li a:hover {
+    color: #000000
+}
+
+.shot-more {
+    background: none repeat scroll 0 0 #000000;
+    color: #ffffff;
+}
+
+#testimonials-bkg {
+    background-image: url("../images/bkgs/testimonials-bkg.jpg");
+}
+
+#testimonials-bkg-cover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.services-bkg {
+    background: #ffffff;
+}
+
+.service h5 {
+    color: #263644
+}
+
+#price-bkg {
+    background-image: url("../images/bkgs/price-bkg.jpg");
+}
+
+#price-bkg-cover {
+    background-color: rgba(34, 179, 201, 0.7);
+}
+
+.table-column {
+    background: #ffffff;
+}
+
+.column-title {
+    background: #263644;
+    color: #ffffff;
+}
+
+.column-price {
+    background: #f0f0f0;
+    color: #263644;
+}
+
+
+.contact-bkg {
+    background: #263644;
+}
+
+.contact-bkg,
+.section-color,
+.section-color-c {
+    color: #ffffff;
+}
+
+.section-color-c {
+    border: 2px solid #ffffff;
+}
+
+input.comm-field,
+#message2 {
+    border: none;
+    color: #ffffff;
+    background: #1a252e;
+}
+
+input.comm-field-post,
+#comment {
+    border: 2px solid #e5e5e5;
+}
+
+input.comm-field:focus,
+#message2:focus {
+    color: #1a252e;
+    background: #ffffff;
+}
+
+.comm-title h5,
+.widgettitle {
+    color: #263644;
+}
+
+#search-string {
+    border: 2px solid #e5e5e5;
+}
+
+.widget_recent_entries ul li a,
+.widget_categories ul li a,
+.widget_archive ul li a {
+    color: #263644;
+}
+
+.widget_recent_entries ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_archive ul li a:hover {
+    color: #ff7700;
+}
+
+.widget_tag_cloud a {
+    background: #263644;
+    color: #ffffff;
+}
+
+.widget_tag_cloud a:hover {
+    background: #ff7700;
+    color: #263644;
+}
+
+.output2 {
+    border: 1px solid #ff0000;
+}
+
+.comment-body {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.comment-author .author a:link,
+.comment-author .author a:visited,
+.comment-reply-link,
+.title-archive {
+    color: #263644;
+}
+
+.comment-author .author a:hover,
+.comment-reply-link:hover,
+.widget_recent_entries ul li:before,
+.widget_categories ul li:before,
+.widget_archive ul li:before {
+    color: #000000;
+}
+
+footer {
+    background: #000000;
+
+}
+
+a.foo-fb {
+    background: url("../images/icon-facebook.png") no-repeat 0px 0px;
+}
+
+a.foo-fb:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-tw {
+    background: url("../images/icon-twitter.png") no-repeat 0px 0px;
+}
+
+a.foo-tw:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-gplus {
+    background: url("../images/icon-gplus.png") no-repeat 0px 0px;
+}
+
+a.foo-gplus:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-linkedin {
+    background: url("../images/icon-linkedin.png") no-repeat 0px 0px;
+}
+
+a.foo-linkedin:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-pinterest {
+    background: url("../images/icon-pinterest.png") no-repeat 0px 0px;
+}
+
+a.foo-pinterest:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-dribbble {
+    background: url("../images/icon-dribbble.png") no-repeat 0px 0px;
+}
+
+a.foo-dribbble:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-vimeo {
+    background: url("../images/icon-vimeo.png") no-repeat 0px 0px;
+}
+
+a.foo-vimeo:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-stumble {
+    background: url("../images/icon-stumble.png") no-repeat 0px 0px;
+}
+
+a.foo-stumble:hover {
+    background-position: 0px -40px;
+}
+
+a.foo-flickr {
+    background: url("../images/icon-flickr.png") no-repeat 0px 0px;
+}
+
+a.foo-flickr:hover {
+    background-position: 0px -40px;
+}
